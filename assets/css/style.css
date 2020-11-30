@@ -1,0 +1,328 @@
+:root{
+  --putih: #ffffff;
+  --biru: #003C85;
+  --merah: #E62129;
+  --kuning: #FEC52B;
+  --hitam: #332C2B;
+  --abu: #F3F3F3;
+}
+
+@font-face {
+  font-family: "LakarsHelvetica";
+  src: url("../fonts/HelveticaNeuBold.ttf");
+}
+
+@font-face {
+  font-family: "LakarsMomentum";
+  src: url("../fonts/MonumentExtended-Regular.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.bg-putih{
+  background-color: var(--putih) !important;
+}
+
+.bg-biru{
+  background-color: var(--biru) !important;
+  color: var(--putih) !important;
+}
+
+.bg-abu{
+  background-color: var(--abu) !important;
+}
+
+.text-biru{
+  color: var(--biru) !important;
+}
+
+.text-hitam{
+  color: var(--hitam) !important;
+}
+
+.container{
+  padding: 0;
+  overflow: hidden;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+header{
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+img{
+  width: 100%;
+}
+
+img:focus{
+  border: none;
+  outline: none;
+}
+
+#logo {
+  height: 54px;
+  width: auto;
+}
+
+#logo:focus{
+  border: none;
+  outline: none;
+}
+
+a:focus{
+  border: none;
+  outline: none;
+}
+
+.nav-link{
+  font-family: "LakarsHelvetica";
+  font-size: 18px;
+  margin-left: 48px;
+  color: var(--biru) !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+  color: var(--merah) !important;
+}
+
+section{
+  margin-top: 68px;
+}
+
+#slider{
+  margin-top: 95px;
+}
+
+#banner{
+  background-image: url("../img/background.png");
+}
+
+.owl-carousel .item {
+  height: calc(100vh - 106px);
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.owl-prev{
+  left: 20px;
+}
+
+.owl-next{
+  right: 20px;
+}
+
+.owl-next, .owl-prev{
+  position: absolute;
+  top: 30%;
+  z-index: 99;
+}
+
+.owl-prev span, .owl-next span {
+  font-size: 60px;
+  color: var(--biru);
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover{
+  background-color: transparent;
+}
+
+.btn-lakars-merah{
+  background-color: var(--merah) !important;
+  border-radius: 50px;
+  color: var(--putih) !important;
+  font-family: "LakarsMomentum";
+  font-size: 22px;
+  border: none;
+  padding: 12px 12px;
+  width: 90%;
+}
+
+.btn-lakars-merah:focus{
+  outline: none;
+  box-shadow: 0px 0px 10px 3px rgba(230, 33, 41, 0.4);
+}
+
+.title{
+  font-family: "LakarsMomentum";
+  margin-bottom: 46px;
+}
+
+.reason{
+  font-size: 19px;
+  /* font-family: "Open Sans", serif; */
+}
+
+.reason-img{
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+#product{
+  overflow: hidden;
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
+
+.product-img{
+  margin-right: 18px;
+  margin-left: 18px;
+  margin-top: 35px;
+}
+
+.product-img>img{
+  width: 264px;
+  border: solid 12px white;
+}
+
+.btn-action{
+  width: 474px !important;
+}
+
+.testi-card{
+  position: relative;
+  background-color: var(--abu);
+  width: 250px;
+  height: 500px;
+  margin: 0 9px;
+  padding: 0 49px;
+  margin-bottom: 68px;
+}
+
+.kutip{
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kutip>img{
+  text-align: center;
+  width: 60px;
+  position: absolute;
+  top: -30px;
+}
+
+.testi-segment{
+  margin-top: 68px;
+}
+
+.testi-profile{
+  width: 110px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.testi-text{
+  margin-top: 24px;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.stars{
+  margin-top: 12px;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 6px;
+  color: var(--kuning);
+}
+
+.testi-name{
+  margin-top: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#customers{
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
+
+#how-to-get{
+  padding-top: 68px;
+}
+
+#last-action{
+  padding-bottom: 68px;
+}
+
+.how-to-card{
+  text-align: center;
+  position: relative;
+}
+
+
+.how-to{
+  width: 50px;
+  height: auto;
+}
+
+.how-to-desc{
+  width: 200px;
+  height: 180px;
+  background-color: var(--abu);
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 24px;
+  font-size: 16px;
+  padding: 46px 0px;
+}
+
+.strip{
+  top: 22px;
+  right: -83px;
+  position: absolute;
+  margin-left: 4px;
+  margin-right: 4px;
+  display: inline-block;
+  width: 160px;
+  height: 3px;
+  background-color: var(--merah);
+}
+
+#footer{
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
+
+.rekening{
+  display: inline-block;
+  width: 225px;
+  height: auto;
+}
+
+.bank{
+  margin-left: 20px;
+}
+
+.bank>img{
+  display: inline-block;
+  width: 126px;
+  height: auto;
+}
+
+.logo-putih{
+  width: 225px;
+  height: auto;
+  margin-bottom: 36px;
+}
+
+.social-media>img{
+  width: 32px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.garis{
+  background-color: white;
+  width: 100%;
+  height: 2px;
+  border-radius: 50px;
+  margin-top: 68px;
+}

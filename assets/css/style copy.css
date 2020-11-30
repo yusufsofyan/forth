@@ -1,0 +1,193 @@
+:root{
+  --putih: #ffffff;
+  --biru: #003C85;
+  --merah: #E62129;
+  --kuning: #FEC52B;
+  --hitam: #332C2B;
+}
+
+@font-face {
+  font-family: "LakarsHelvetica";
+  src: url("../fonts/HelveticaNeuBold.ttf");
+}
+
+@font-face {
+  font-family: "LakarsMomentum";
+  src: url("../fonts/MonumentExtended-Regular.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.bg-putih{
+  background-color: var(--putih) !important;
+}
+
+.bg-biru{
+  background-color: var(--biru) !important;
+}
+
+header{
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+img:focus{
+  border: none;
+  outline: none;
+}
+
+#logo {
+  height: 64px;
+}
+
+#logo:focus{
+  border: none;
+  outline: none;
+}
+
+a:focus{
+  border: none;
+  outline: none;
+}
+
+.nav-link{
+  font-family: "LakarsHelvetica";
+  font-size: 18px;
+  margin-left: 48px;
+  color: var(--biru) !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+  color: var(--merah) !important;
+}
+
+#hero-slider{
+  margin-top: 106px;
+}
+
+#hero-banner{
+  background-image: url("../img/background.png");
+}
+
+.owl-carousel .item {
+  height: calc(100vh - 106px);
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.owl-prev{
+  left: 20px;
+}
+
+.owl-next{
+  right: 20px;
+}
+
+.owl-next, .owl-prev{
+  position: absolute;
+  top: 30%;
+  z-index: 99;
+}
+
+.owl-prev span, .owl-next span {
+  font-size: 60px;
+  color: var(--biru);
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover{
+  background-color: transparent;
+}
+
+.btn-lakars-merah{
+  background-color: var(--merah) !important;
+  border-radius: 50px;
+  color: var(--putih) !important;
+  font-family: "LakarsMomentum";
+  font-size: 22px;
+  border: none;
+  padding: 12px 12px;
+  width: 90%;
+}
+
+.btn-lakars-merah:focus{
+  outline: none;
+  box-shadow: 0px 0px 10px 3px rgba(230, 33, 41, 0.4);
+}
+
+.title{
+  font-family: "LakarsMomentum";
+  color: var(--biru);
+  margin-bottom: 34px;
+}
+
+.reason{
+  font-size: 19px;
+  font-family: "Open Sans", serif;
+}
+
+.reason-img{
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+#product{
+  margin-top: 42px;
+}
+
+.product{
+  font-family: "LakarsMomentum";
+  color: var(--putih);
+  padding-top: 76px;
+  padding-bottom: 40px;
+}
+
+.foto-product{
+  width: 264px;
+  border: solid 12px white;
+  margin-right: 35px;
+  margin-top: 35px;
+}
+
+.foto-product:nth-last-child(1){
+  width: 264px;
+  border: solid 12px white;
+  margin-right: 35px;
+  margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reponsive Design */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
